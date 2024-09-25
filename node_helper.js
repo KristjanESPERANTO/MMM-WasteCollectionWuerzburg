@@ -28,17 +28,23 @@ module.exports = Helper.create({
     getData: function(data) {
         var _this = this;
 
-        var urlSearchParams = new URLSearchParams({
-            limit: this.config.limit,
-            order_by: this.config.orderBy,
-            select: this.config.fields.join()
-        });
+        
+
+        const currentDate = new Date();
+
+        var where = 'start >= \'' + currentDate.toISOString().split('T')[0] + '\'';
 
         var districts = data.districts || [];
         if (districts.length > 0) {
-            // const currentDate = new Date();
-            urlSearchParams.append('where', 'stadtteil_name IN (' + districts.map(a => `'${a}'`).join() + ')'); //  AND start <= ' + currentDate.setDate(currentDate.getDate() + 14))
+            where += 'AND stadtteil_name IN (' + districts.map(a => `'${a}'`).join() + ')';
         }
+
+        var urlSearchParams = new URLSearchParams({
+            limit: this.config.limit,
+            order_by: this.config.orderBy,
+            select: this.config.fields.join(),
+            where: where
+        });
 
         var url = this.config.sourceUrl + this.config.apiVersion + '/catalog/datasets/abfallkalender-wuerzburg/records?' + urlSearchParams.toString();
 
