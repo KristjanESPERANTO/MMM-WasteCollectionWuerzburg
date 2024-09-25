@@ -6,7 +6,7 @@ Module.register("MMM-WasteCollectionWuerzburg", {
         title: "Abfallkalender Würzburg",
         districts: [ // shows all if empty
             // 'Altstadt',
-            'Frauenland',
+            // 'Frauenland',
             // 'Dürrbach alle mit Hafen',
             // 'Grombühl',
             // 'Heidingsfeld',

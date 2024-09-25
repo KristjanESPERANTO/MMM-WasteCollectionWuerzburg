@@ -15,10 +15,46 @@ It uses [OpenData Platform Würzburg](https://opendata.wuerzburg.de) and its [Wa
 | Option | Description |
 |---|---|
 | title | Title to display at the top of the module. <br><br> |
-| districts | Specify Würzburg districts to be displayed. <br><br> |
+| districts | Specify Würzburg districts to be displayed.
 | categories | Specify Waste Collection categories to be displayed. <br><br> |
 | updateInterval | Data refresh interval in milliseconds. <br><br> **Default:** 604800*1000 |
 | showTypes | Print out waste type names. <br><br> **Default:** true |
 | showDistrict | Print out district name. Recommended if you select multiple districts. <br><br> **Default:** false |
 | showYear | Display year in date column. **Default:** false |
 | rowsMax | How many rows to be displayed. **Default:** 5
+
+
+```
+districts: [
+    'Altstadt',
+    'Frauenland',
+    'Dürrbach alle mit Hafen',
+    'Grombühl',
+    'Heidingsfeld',
+    'Heuchelhof innen',
+    'Heuchelhof aussen',
+    'Lengfeld',
+    'Lindleinsmühle',
+    'Mainviertel',
+    'Neumühle',
+    'Pilziggrund',
+    'Rottenbauer',
+    'Sanderau',
+    'Steinbachtal',
+    'Versbach',
+    'Zellerau'
+],
+categories: [
+    'Restmüll',
+    'Biomüll',
+    'Gelbe Säcke',
+    'Papier',
+    'Problemmüll-Sammlung',
+    'Wertstoffmobil'
+],
+showTypes: true, // displays waste type names next to icons
+showDistrict: false, // this should be enaled if you use multiple districts
+showYear: false,
+rowsMax: 5 // max num rows to be displayed; 0 for unlimited
+
+```
