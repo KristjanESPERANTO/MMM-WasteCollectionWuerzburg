@@ -68,15 +68,15 @@ rowsMax: 5 // max num rows to be displayed; 0 for unlimited
         module: "MMM-WasteCollectionWuerzburg",
         position: "top_left",
         config: {
-                title: 'Abfallkalender Frauenland',
-                rowsMax: 2,
-                districts: ['Frauenland'],
-                categories: [ 
-                        'Restmuell',
-                        'Biomüll',
-                        'Gelbe Säcke',
-                        'Papier'
-                ]
+            title: 'Abfallkalender Frauenland',
+            rowsMax: 2,
+            districts: ['Frauenland'],
+            categories: [ 
+                'Restmüll',
+                'Biomüll',
+                'Gelbe Säcke',
+                'Papier'
+            ]
         }
 }
 ```
