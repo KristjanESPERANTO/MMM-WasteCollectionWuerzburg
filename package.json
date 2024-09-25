@@ -1,0 +1,26 @@
+{
+    "name": "MMM-WasteCollectionWuerzburg",
+    "version": "0.8",
+    "description": "Magic Mirror module that lists Waste disposal calendar of Wuerzburg",
+    "repository": {
+        "type": "git"
+    },
+    "keywords": [
+        "magic mirror",
+        "smart mirror",
+        "Wuerzburg",
+        "Würzburg",
+        "disposal",
+        "waste",
+        "garbage",
+        "module"
+    ],
+    "contributors": [
+        "https://github.com/mercredo/"
+    ],
+    "author": "Hanjo Schumacher",
+    "licence": "MIT",
+    "dependencies": {
+        "request": "^2.88.0"
+    }
+}

@@ -1,0 +1,11 @@
+table {
+    text-align: left;
+}
+table td {
+    padding-left: 8px;
+}
+table .waste-icons {}
+table .waste-icons img {
+    border: 1px solid var(--color-text); 
+    margin-right: 4px;
+}
