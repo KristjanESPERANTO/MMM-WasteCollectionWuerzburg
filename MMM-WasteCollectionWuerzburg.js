@@ -24,10 +24,10 @@ Module.register("MMM-WasteCollectionWuerzburg", {
             // 'Zellerau'
         ],
         categories: [ // shows all if empty
-            'Restmüll',
-            'Biomüll',
-            'Gelbe Säcke',
-            'Papier',
+            // 'Restmüll',
+            // 'Biomüll',
+            // 'Gelbe Säcke',
+            // 'Papier',
             // 'Problemmüll-Sammlung',
             // 'Wertstoffmobil'
         ],

@@ -58,3 +58,25 @@ showYear: false,
 rowsMax: 5 // max num rows to be displayed; 0 for unlimited
 
 ```
+
+### My configuration for a single district (Frauenland)
+
+![Screenshot](mmm-wastecol-custom.png)
+
+```json
+{
+        module: "MMM-WasteCollectionWuerzburg",
+        position: "top_left",
+        config: {
+                title: 'Abfallkalender Frauenland',
+                rowsMax: 2,
+                districts: ['Frauenland'],
+                categories: [ 
+                        'Restmuell',
+                        'Biomüll',
+                        'Gelbe Säcke',
+                        'Papier'
+                ]
+        }
+}
+```
