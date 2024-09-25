@@ -1,14 +1,10 @@
-# MMM-WasteCollectionWuerzburg
+## MMM-WasteCollectionWuerzburg
 
-This is a Magic Mirror module to display waste collection dates of Würzburg on your [Magic Mirror}(https://github.com/MagicMirrorOrg/MagicMirror) displays.
+This is a Magic Mirror module to display waste collection dates of Würzburg on your [Magic Mirror](https://github.com/MagicMirrorOrg/MagicMirror) displays.
 
 It uses [OpenData Platform Würzburg](https://opendata.wuerzburg.de) and its [Waste collection API endpoint](https://opendata.wuerzburg.de/explore/dataset/abfallkalender-wuerzburg/api).
 
 ![Screenshot](mmm-wastecollectionwuerzburg.png)
-
-# Table of Contents
-* [How to use](#how-to-use)
-* [Configuration Options](#configuration-options)
 
 ### How to use
 1. Clone this repo into your Magic Mirrors modules directory with the following command: git clone https://github.com/mercredo/MMM-WasteCollectionWuerzburg.git.
