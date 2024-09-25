@@ -28,8 +28,6 @@ module.exports = Helper.create({
     getData: function(data) {
         var _this = this;
 
-        
-
         const currentDate = new Date();
 
         var where = 'start >= \'' + currentDate.toISOString().split('T')[0] + '\'';
