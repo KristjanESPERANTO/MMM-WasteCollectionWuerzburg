@@ -1,7 +1,6 @@
-# Waste Collection Wuerzburg as Magic Mirror Module
-## MMM-WasteCollectionWuerzburg
+# MMM-WasteCollectionWuerzburg
 
-This is a Magic Mirror module to display waste collection dates of Würzburg on your Magic Mirror displays.
+This is a Magic Mirror module to display waste collection dates of Würzburg on your [Magic Mirror}[https://github.com/MagicMirrorOrg/MagicMirror] displays.
 
 ![Screenshot](mmm-wastecollectionwuerzburg.png)
 
