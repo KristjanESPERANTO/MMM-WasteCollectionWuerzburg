@@ -23,7 +23,7 @@ Module.register("MMM-WasteCollectionWuerzburg", {
             // 'Versbach',
             // 'Zellerau'
         ],
-        categories: [
+        categories: [ // shows all if empty
             'Restmüll',
             'Biomüll',
             'Gelbe Säcke',
