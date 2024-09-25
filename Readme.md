@@ -24,7 +24,7 @@ It uses [OpenData Platform Würzburg](https://opendata.wuerzburg.de) and its [Wa
 | rowsMax | How many rows to be displayed. **Default:** 5
 
 
-```
+```js
 districts: [
     'Altstadt',
     'Frauenland',
