@@ -2,7 +2,6 @@
 const Helper = require('node_helper');
 const Request = require('request');
 const Logger = require('logger');
-const Moment = require('moment');
 
 function deUmlaut(value){
     value = value.toLowerCase();
