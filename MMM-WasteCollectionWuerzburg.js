@@ -33,10 +33,10 @@ Module.register("MMM-WasteCollectionWuerzburg", {
         ],
         updateInterval: 604800*1000, // once a week
         rows: {},
-        showTypes: true,
-        showDistrict: false,
+        showTypes: true, // displays waste type names next to icons
+        showDistrict: false, // this should be enaled if you use multiple districts
         showYear: false,
-        rowsMax: 5 // max num rows to be displayed
+        rowsMax: 5 // max num rows to be displayed; 0 for unlimited
     },
     getStyles: function() {
         return [this.file('css/default.css')];
