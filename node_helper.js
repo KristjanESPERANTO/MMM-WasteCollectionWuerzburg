@@ -23,7 +23,7 @@ module.exports = Helper.create({
         apiVersion: 'v2.1',
         limit: 50,
         orderBy: 'start ASC',
-        fields: ['titel', 'kategorie', 'start', 'bild', 'stadtteil_name']
+        fields: ['kategorie', 'start', 'bild', 'stadtteil_name']
     },
     getData: function(data) {
         var _this = this;
