@@ -87,13 +87,13 @@ Module.register("MMM-WasteCollectionWuerzburg", {
 
             if (this.config.categories.length === 0 || this.config.categories.indexOf(category.kategorie) > -1) {
                 catArr.push(category.kategorie);
+
+                var img = document.createElement('img');
+
+                img.src = category.bild;
+
+                td.appendChild(img);
             }
-
-            var img = document.createElement('img');
-
-            img.src = category.bild;
-
-            td.appendChild(img);
         });
 
         // skip row if no desired category available
